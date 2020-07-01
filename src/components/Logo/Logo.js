@@ -5,7 +5,7 @@ import logoImg from '../../assets/imgs/burger-logo.png';
 const logo = () => {
     return (
         <div className={classes.Logo}>
-            <img src={logoImg} />
+            <img src={logoImg} alt="Burger Icon" />
         </div>
     )
 }
